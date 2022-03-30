@@ -7,7 +7,7 @@ from MightyXSpam import CMD_HNDLR as hl
     
 HELP_PIC = "https://telegra.ph/file/f6ea9ab7683ec1d5f8f57.jpg"
 
-Mig_Help = "★ 𝙈𝙞𝙜𝙝𝙩𝙮𝙓𝙎𝙥𝙖𝙢 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩"
+Mig_Help = "★ 𝘼𝙅𝙀𝙀𝙏𝙓𝙎𝙋𝘼𝙈 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩"
 
 
 @Mig.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -34,10 +34,10 @@ async def help(event):
             Button.inline("⚡ Extra ⚡", data="extra"),
            ],
            [    
-            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/MightyXUpdates")
+            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/THE_PROFESSOR_NETWORK")
            ],
            [
-           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/MightyXSupport")
+           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/TPN_CHATROOM")
            ],
            ],
            )              
@@ -62,7 +62,7 @@ Command :
 **Leave :** To Leave Group/Channel
 Command :
 1) {hl}leave <group/chat id>
-2) {hl}leave : Type in the Group bot will auto leave that group
+2) {hl}leave : Type in the Group bot will auto leave that group. 
 
 **PackSpam :** Sticker Pack Spam
 1) {hl}packspam (replying to any sticker)
@@ -152,16 +152,16 @@ async def helpback(event):
             Button.inline("⚡ Extra ⚡", data="extra"),
            ],
            [    
-            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/MightyXUpdates")
+            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/THE_PROFESSOR_NETWORK")
            ],
            [
-           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/MightyXSupport")
+           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/TPN_CHATROOM")
            ],
            ],
         )           
    else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSpam"
+                "Noob !! Make Your Own Ajeet X Spam Bots !! @TPN_CHATROOM"
             )
         await event.answer(Alert, cache_time=0, alert=True)
       
@@ -189,7 +189,7 @@ async def help_spam(event):
             ) 
    else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSpam"
+                "Noob !! Make Your Own Ajeet X Spam Bots !! @TPN_CHATROOM"
             )
         await event.answer(Alert, cache_time=0, alert=True)
                  
@@ -216,7 +216,7 @@ async def help_raid(event):
             )  
      else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSpam"
+                "Noob !! Make Your Own Ajeet X Spam Bots !! @TPN_CHATROOM"
             )
         await event.answer(Alert, cache_time=0, alert=True)
        
@@ -244,6 +244,6 @@ async def help_extra(event):
             )
    else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSpam"
+                "Noob !! Make Your Own Ajeet X Spam Bots !! @TPN_CHATROOM"
             )
         await event.answer(Alert, cache_time=0, alert=True)
